@@ -20,8 +20,8 @@ module Imatcher
     end
 
     def compare(a, b)
-      a = Image.from_file(a) unless a.is_a?(Image)
-      b = Image.from_file(b) unless b.is_a?(Image)
+      a = Image.form_blob(a) unless a.is_a?(Image)
+      b = Image.from_blob(b) unless b.is_a?(Image)
 
       fail SizesMismatchError,
            "Size mismatch: first image size: " \
