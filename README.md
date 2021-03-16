@@ -1,9 +1,14 @@
-[![Gem Version](https://badge.fury.io/rb/imatcher.svg)](https://rubygems.org/gems/imatcher) [![Build Status](https://travis-ci.org/teachbase/imatcher.svg?branch=master)](https://travis-ci.org/teachbase/imatcher)
+# Note: This is WIP!
 
 # Imatcher
 
 Compare PNG images in pure Ruby (uses [ChunkyPNG](https://github.com/wvanbergen/chunky_png)) using different algorithms.
 This is an utility library for image regression testing.
+
+# What's different from the original Imatcher?
+
+This version only supports comparing of blobs as of now, whereas the original version supports comparing actual files only.
+
 
 ## Installation
 
