@@ -2,7 +2,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require 'imatcher/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "imatcher"
+  spec.name          = "imatcher-blobs"
   spec.version       = Imatcher::VERSION
   spec.authors       = ["palkan"]
   spec.email         = ["dementiev.vm@gmail.com"]
